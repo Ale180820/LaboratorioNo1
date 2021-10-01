@@ -22,8 +22,8 @@ namespace Laboratorio1 {
                     Console.ForegroundColor = ConsoleColor.White;
                 }
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("¿Desea continuar ingresando operaciones? S/N");
-                if (Console.ReadLine() == "N") {
+                Console.WriteLine("¿Desea continuar ingresando operaciones? N - Salir / Enter - Continuar");
+                if (Console.ReadKey().Key == ConsoleKey.N) {
                     exit = true;
                 }
                 else {
