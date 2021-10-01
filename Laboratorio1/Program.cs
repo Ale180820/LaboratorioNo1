@@ -18,7 +18,7 @@ namespace Laboratorio1 {
                 }
                 catch (Exception ex) {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Expresión no aceptada por " + ex.Message + ":(");
+                    Console.WriteLine("Expresión no aceptada por " + ex.Message + " :(");
                     Console.ForegroundColor = ConsoleColor.White;
                 }
                 Console.ForegroundColor = ConsoleColor.White;
